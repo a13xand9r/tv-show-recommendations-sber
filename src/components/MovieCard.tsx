@@ -16,6 +16,7 @@ export const MovieCard = ({ movie }: { movie: TVShowType }) => {
         <img
         src={movie.img}
         alt=''
+        style={{width: '100%'}}
         />
         {/* <CardMedia
           src={movie.img}
