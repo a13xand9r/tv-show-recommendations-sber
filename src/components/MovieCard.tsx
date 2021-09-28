@@ -1,5 +1,5 @@
 import { IconStarFill, IconAccessibility, IconEvent } from '@sberdevices/plasma-icons'
-import { Card, CardBody, CardContent, TextBox, TextBoxBigTitle, Cell, CellIcon, TextBoxSubTitle, CardMedia } from '@sberdevices/plasma-ui'
+import { Card, CardBody, CardContent, TextBox, TextBoxBigTitle, Image, Cell, CellIcon, TextBoxSubTitle, CardMedia } from '@sberdevices/plasma-ui'
 import styled from 'styled-components'
 import { TVShowType } from '../types'
 
@@ -13,12 +13,16 @@ export const MovieCard = ({ movie }: { movie: TVShowType }) => {
   return (
     <Card>
       <CardBody>
-        <CardMedia
+        <img
+        src={movie.img}
+        alt=''
+        />
+        {/* <CardMedia
           src={movie.img}
           placeholder="/images/320_320_1.jpg"
           ratio="9 / 16"
-          style={{ paddingBottom: '0px' }}
-        />
+          // style={{ paddingBottom: '0px' }}
+        /> */}
         <CardContent style={{ height: '100%', padding: '1.5rem' }} cover={false}>
           <TextBox>
             <TextBoxBigTitle>{movie.name}</TextBoxBigTitle>
