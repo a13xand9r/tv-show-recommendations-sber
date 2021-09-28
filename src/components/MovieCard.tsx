@@ -17,7 +17,7 @@ export const MovieCard = ({ movie }: { movie: TVShowType }) => {
           src={movie.img}
           placeholder="/images/320_320_1.jpg"
           ratio="9 / 16"
-          style={{ paddingBottom: '900px' }}
+          style={{ paddingBottom: '0px' }}
         />
         <CardContent style={{ height: '100%', padding: '1.5rem' }} cover={false}>
           <TextBox>
