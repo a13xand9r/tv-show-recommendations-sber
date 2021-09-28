@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useRef } from 'react';
-import './App.css';
+import './App.css'
 import { GlobalStyles } from './components/GlobalStyle';
 import { initialState, reducer } from './store';
 import { initAssistant } from './assistant';
