@@ -14,6 +14,11 @@ const AppContainer = styled.div`
   margin: 0 auto;
   margin-bottom: 4rem;
 `
+const StylesCard = styled(Card)`
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 1rem;
+`
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState)
@@ -30,7 +35,7 @@ function App() {
         {/* <AppContainer> */}
           {
             !state.tvShow ?
-              <Card>
+              <StylesCard>
                 <CardBody style={{ height: '100%', alignItems: 'center' }}>
                   <CardContent style={{ height: '100%' }} cover={false}>
                     <TextBox>
@@ -42,7 +47,7 @@ function App() {
                     </TextBox>
                   </CardContent>
                 </CardBody>
-              </Card> :
+              </StylesCard> :
               <MovieCard movie={state.tvShow} />
           }
         {/* </AppContainer> */}

@@ -25,7 +25,7 @@ export const MovieCard = ({ movie }: { movie: TVShowType }) => {
         <Col type="calc" sizeXL={6} sizeM={4} sizeS={8}>
           <Card
             // style={{ height: heightStyle, }}
-            style={{padding: '0.7rem'}}
+            style={{padding: '0.7rem', height: heightStyle}}
           >
             <CardContent compact>
               <TextBox>
