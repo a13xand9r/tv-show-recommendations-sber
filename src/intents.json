@@ -1,0 +1,123 @@
+{
+  "intents": {
+    "/Следующий совет": {
+      "matchers": [
+        {
+          "type": "phrase",
+          "rule": "следущий"
+        },
+        {
+          "type": "phrase",
+          "rule": "следующий сериал"
+        },
+        {
+          "type": "phrase",
+          "rule": "еще"
+        },
+        {
+          "type": "phrase",
+          "rule": "ещё"
+        },
+        {
+          "type": "phrase",
+          "rule": "следующая рекомендация"
+        },
+        {
+          "type": "phrase",
+          "rule": "дальше"
+        }
+      ],
+      "variables": {}
+    },
+    "/Да": {
+      "matchers": [
+        {
+          "type": "phrase",
+          "rule": "да"
+        },
+        {
+          "type": "phrase",
+          "rule": "давай"
+        }
+      ],
+      "variables": {}
+    },
+    "/Нет": {
+      "matchers": [
+        {
+          "type": "phrase",
+          "rule": "нет"
+        },
+        {
+          "type": "phrase",
+          "rule": "не надо"
+        }
+      ],
+      "variables": {}
+    },
+    "/Сколько рекомендаций": {
+      "matchers": [
+        {
+          "type": "phrase",
+          "rule": "сколько всего рекомендаций"
+        }
+      ],
+      "variables": {}
+    },
+    "/Не тот сериал": {
+      "matchers": [
+        {
+          "type": "phrase",
+          "rule": "не тот сериал"
+        },
+        {
+          "type": "phrase",
+          "rule": "я имел ввиду другой сериал"
+        },
+        {
+          "type": "phrase",
+          "rule": "я имел ввиду не тот сериал"
+        }
+      ],
+      "variables": {}
+    },
+    "/Найти сериал": {
+      "matchers": [
+        {
+          "type": "phrase",
+          "rule": "порекомендуй сериал"
+        },
+        {
+          "type": "phrase",
+          "rule": "найди сериал"
+        },
+        {
+          "type": "phrase",
+          "rule": "похожие сериалы"
+        },
+        {
+          "type": "phrase",
+          "rule": "похожий сериал"
+        },
+        {
+          "type": "phrase",
+          "rule": "другой сериал"
+        },
+        {
+          "type": "phrase",
+          "rule": "новый сериал"
+        },
+        {
+          "type": "phrase",
+          "rule": "найти другой сериал"
+        },
+        {
+          "type": "phrase",
+          "rule": "поискать другой сериал"
+        }
+      ],
+      "variables": {}
+    }
+  },
+  "entities": {}
+}
