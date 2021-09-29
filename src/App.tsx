@@ -27,7 +27,7 @@ function App() {
       <GlobalStyles character={state.character} />
       <Container style={{marginBottom: '5rem'}}>
         <AppHeader />
-        <AppContainer>
+        {/* <AppContainer> */}
           {
             !state.tvShow ?
               <Card>
@@ -45,7 +45,7 @@ function App() {
               </Card> :
               <MovieCard movie={state.tvShow} />
           }
-        </AppContainer>
+        {/* </AppContainer> */}
       </Container>
     </div>
   );
