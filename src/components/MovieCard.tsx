@@ -20,7 +20,7 @@ export const MovieCard = ({ movie }: { movie: TVShowType }) => {
       <Row>
         <StyledImage
           src={movie.img}
-          style={{ width: "330px", height: "550px", marginBottom: "5px" }}
+          style={{ maxWidth: "340px", maxHeight: "570px", marginBottom: "5px" }}
         />
         <Col type="calc" sizeXL={6} sizeM={4} sizeS={8}>
           <Card
